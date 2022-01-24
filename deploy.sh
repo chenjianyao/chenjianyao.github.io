@@ -3,6 +3,11 @@
 # 确保脚本抛出遇到的错误
 set -e
 
+echo $GITHUB_TOKEN
+echo $SMILEE
+echo $SMILES
+echo $ACCESS_TOKEN
+
 # 生成静态文件
 npm run build
 
